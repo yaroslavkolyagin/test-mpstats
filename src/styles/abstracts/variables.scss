@@ -1,0 +1,26 @@
+$font-main-light: 'SFCompactDisplay-Light';
+$font-main-regular: 'SFCompactDisplay-Regular';
+$font-main-medium: 'SFCompactDisplay-Medium';
+
+$font-sz-base: 16px;
+
+@use "sass:math";
+$rem: math.div(1rem, 16);
+
+$clr-black: #000000;
+$clr-white: #ffffff;
+$clr-gray: #394252;
+$clr-gray-2: #435159;
+$clr-gray-3: #C6C7CB;
+$clr-gray-4: #303948;
+$clr-gray-5: #CCD4D9;
+$clr-theme: #0CBD68;
+
+$t: .3s;
+
+// @media (max-width: $media-)
+$media-1600: 1600px;
+$media-1400: 1400px;
+$media-1024: 1024px;
+$media-768: 768px;
+$media-480: 480px;

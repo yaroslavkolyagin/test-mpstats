@@ -1,0 +1,24 @@
+.btn
+{
+	font-family: $font-main-medium;
+	font-size: $rem * 21;
+	color: $clr-black;
+	text-align: center;
+
+	display: inline-block;
+	padding: $rem * 25 $rem * 40;
+	box-sizing: border-box;
+	background-color: $clr-white;
+	border-radius: $rem * 10;
+	transition: $t;
+	@media (max-width: $media-1024)
+	{
+		font-size: $rem * 16;
+		padding: $rem * 15 $rem * 40;
+	}
+	&:hover
+	{
+		background-color: $clr-theme;
+		color: $clr-white;
+	}
+}
